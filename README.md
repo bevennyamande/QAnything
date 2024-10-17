@@ -334,7 +334,7 @@ git clone https://github.com/netease-youdao/QAnything.git
 ```shell
 cd QAnything
 # Start on Linux
-docker compose -f docker-compose-linux.yaml up
+docker-compose -f docker-compose-linux.yaml up
 # Start on Mac
 docker compose -f docker-compose-mac.yaml up
 # Start on Windows
